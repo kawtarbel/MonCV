@@ -1,0 +1,37 @@
+html,button,input,textarea{
+	color: #444;
+}
+html{
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+#wrapper{
+	min-width: 320px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.titre{
+	color: #01A9DB;
+}
+#image{
+	float: right;
+	border-color: #0489B1;
+	border:2px solid;
+	border-radius: 3px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.8);
+	background-color: white;
+}
+#nom{
+	font-family: aguafina-script, cursive;
+	color: #0489B1;
+}
+#libelle,#accroche{
+	text-align: center;
+	color: #0489B1;
+}
+
+footer{
+	text-align: center;
+}
