@@ -18,21 +18,21 @@
 	</head> 
 
 	<body>
- 		<div id="wrapper">
+ 		<div id="wrapper" itemscope itemtype="http://schema.org/Person">
  			<header>
- 			<img id="image" src="photo.jpg" alt="Fichier non trouvé">
-			<h1 id="nom">BELAADEL Kawtar</h1>
+ 			<img id="image" itemprop="image" src="photo.jpg" alt="Fichier non trouvé">
+			<h1 id="nom" itemprop="additionalName">BELAADEL Kawtar</h1>
 		</header> 
 			<div>
-				<h4>21 ans<br/>Marocaine<br/><i class="fa fa-envelope"></i>&nbsp;4 rue des Archives,KF326. Brest,France<br/><i class="fa fa-at"></i>&nbsp;<a href="#">kawtarbelaadel@gmail.com</a><br/><i class="fa fa-mobile"></i>&nbsp;&nbsp;<a href="#">+33635177229</a></br>Permis B</h4>
+				<h4>21 ans<br/>Marocaine<br/><i class="fa fa-envelope"></i>&nbsp;4 rue des Archives,KF326. Brest,France<br/><i class="fa fa-at"></i>&nbsp;<a href="#" itemprop="email" >kawtarbelaadel@gmail.com</a><br/><i class="fa fa-mobile"></i>&nbsp;&nbsp;<a href="#" itemprop="telephone">+33635177229</a></br>Permis B</h4>
 				<br/><br/>
-				<h2 id="libelle">Ingenieure Informatique</h2>
+				<h2 id="libelle" itemprop="jobTitle">Ingenieure Informatique</h2>
 				
 			</div>
 			<div>
-					<h2 id="accroche">Vous recherchez un consultant, je ne le suis pas mais j'aimerais le devenir.</h2>
+					<h2 id="accroche" itemprop="jobTitle">Vous recherchez un consultant, je ne le suis pas mais j'aimerais le devenir.</h2>
 					<hr/>
-					<section>
+					<section itemprop="knows">
 						<article>
 						<h3 class="titre"><i class="fa fa-university"></i>&nbsp; FORMATION:</h3>
 						<hr/>
@@ -42,17 +42,17 @@
 						<p><i>2016-2017 :</i>Master1 Ingenierie de Conception et Developpement d'Applications,Université Hassan 1 à Settat,Maroc</p>
 						</article>
 						<article>
-						<p><i>2015-2015 :</i>Licence Systemes Informatique Repartis,Université Cadi Ayyad à Marrakech,Maroc</p>
+						<p><i>2015-2016 :</i>Licence Systemes Informatique Repartis,Université Cadi Ayyad à Marrakech,Maroc</p>
 						</article>
 						<article>
-						<p><i>2015-2015 :</i>Diplome des Etudes Universitaire Sciences et Techniques,Université Cadi Ayyad à Marrakech,Maroc</p>
+						<p><i>2014-2015 :</i>Diplome des Etudes Universitaire Sciences et Techniques,Université Cadi Ayyad à Marrakech,Maroc</p>
 						</article>
 						<article>
-						<p><i>2015-2015 :</i>Baccalauréat option Science Physique mention Bien,Institut du Sud à Marrakech,Maroc</p>
+						<p><i>2012-2013 :</i>Baccalauréat option Science Physique mention Bien,Institut du Sud à Marrakech,Maroc</p>
 						</article>
 					</section>
 					<hr/>
-					<section>
+					<section itemprop="jobTitle">
 						<article>
 						<h3 class="titre"><i class="fa fa-book"></i>&nbsp; EXPERIENCES PROFESSIONNELLES:</h3>
 						<hr/>
@@ -74,7 +74,7 @@
 					<hr/>
 					<h3 class="titre"><i class="fa fa-bookmark"></i>&nbsp;COMPETENCES:</h3>
 					<hr/>
-					<dl>
+					<dl itemprop="award">
 					    <dt><b>Langages de programmation:</b></dt>
 					    <dd>
 						    <i>Java,JavaEE,C</i>
@@ -103,7 +103,7 @@
 					<hr/>
 					<h3 class="titre"><i class="fa fa-tags"></i>&nbsp;LANGUES:</h3>
 					<hr/>
-						<ul>
+						<ul itemprop="knows">
 							<li>Arabe:<i>Maternelle</i></li>
 							<li>Français:<i>Niveau C1</i></li>
 							<li>Anglais:<i>Niveau B1</i></li>
@@ -112,7 +112,7 @@
 					<hr/>
 					<h3 class="titre"><i class="fa fa-thumb-tack"></i>&nbsp;CENTRE D'INTERET:</h3>
 					<hr/>
-						<ul>
+						<ul itemprop="description">
 							<li>Membre d'une association caritative</li>
 							<li>Sport(<i>Basket,Natation</i>)</li>
 							<li>Voyage</li>
@@ -120,7 +120,7 @@
 					
 
 			</div>
-		<footer>
+		<footer itemprop="workLocation">
 			<i class="fa fa-linkedin"></i>
 			<a href="https://www.linkedin.com/in/kawtar-belaadel-20a6a814a/">LinkedIn</a>
 			<i class="fa fa-github"></i>
